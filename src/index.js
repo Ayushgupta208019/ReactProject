@@ -13,11 +13,11 @@ function Hello(){ //function component
 
 //in React Variable called as State
 
-function RedWood(){
-  const [y, setY] = useState(20) //This is syntax for declare a varible in React. "State"
+// function RedWood(){
+//   const [y, setY] = useState(20) //This is syntax for declare a varible in React. "State"
 
-  return <h1>Hello, The final value of y is {y}</h1>
-}
+//   return <h1>Hello, The final value of y is {y}</h1>
+// }
 
 let SalaryDetails = () =>{
   const [salary, setSalary] = useState(50000)
